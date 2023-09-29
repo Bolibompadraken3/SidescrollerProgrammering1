@@ -309,8 +309,9 @@ GameObject:
   m_Component:
   - component: {fileID: 950878080}
   - component: {fileID: 950878079}
+  - component: {fileID: 950878081}
   m_Layer: 0
-  m_Name: Sidescroller Character
+  m_Name: Mario
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -383,6 +384,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &950878081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950878078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9581bde7363b2814e8460d13b3e4ac73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GravityPerSecond: 160
+  GroundLevel: 0
+  MovementSpeedPersecond: 10
 --- !u!1 &1021738232
 GameObject:
   m_ObjectHideFlags: 0
